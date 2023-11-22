@@ -1,0 +1,56 @@
+:root{
+    --maincolor: rgb(219, 219, 235);
+    --secondarycolor: rgb(64, 174, 211);
+    --btnhover: underline;
+    --cartwidth: 20vw;
+    --cartheight: 20vh;
+    --cartborder: solid 1px black;
+    --cartmargin: 1em 0 0 0;
+    --secondary-border: 50%;
+    --centering: 0 auto;
+    --text-center: center
+    
+}
+.kaart{
+    width: var(--cartwidth);
+    height: var(--cartheight);
+    border: var(--cartborder);
+    margin: var(--cartmargin);
+    background: var(--secondarycolor);
+    color: var(--maincolor);
+    text-align: var(--text-center);
+}
+
+.kaart2{
+    width: calc(var(--cartwidth) + 20px);
+    height: 20vh ;
+    border: var(--cartborder);
+    margin: var(--cartmargin);
+    background: var(--secondarycolor);
+    color: var(--maincolor);
+    border-radius: var(--secondary-border);
+    text-align: var(--text-center);
+}
+
+.kaart3{
+    width: var(--cartwidth);
+    height: var(--cartheight);
+    border: var(--cartborder);
+    margin: var(--cartmargin);
+    background: var(--secondarycolor);
+    color: var(--maincolor);
+    text-align: var(--text-center);
+}
+.button{
+    width: 3em;
+    height: 1em;
+    border: var(--cartborder);
+    margin: var(--centering);
+    text-align: var(--text-center);
+
+}
+.button:hover{
+    text-decoration: var(--btnhover);
+    color: red;
+    background: var(--maincolor);
+}
