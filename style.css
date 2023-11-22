@@ -1,10 +1,10 @@
 :root{
-    --maincolor: rgb(219, 219, 235);
-    --secondarycolor: rgb(64, 174, 211);
+    --maincolor: #000;
+    --secondarycolor: #c2edce;
     --btnhover: underline;
     --cartwidth: 20vw;
     --cartheight: 20vh;
-    --cartborder: solid 1px black;
+    --cartborder: solid 1px #f6f6f2;
     --cartmargin: 1em 0 0 0;
     --secondary-border: 50%;
     --centering: 0 auto;
@@ -51,6 +51,6 @@
 }
 .button:hover{
     text-decoration: var(--btnhover);
-    color: red;
-    background: var(--maincolor);
+    color: var(--maincolor);
+    background: #388087;
 }
